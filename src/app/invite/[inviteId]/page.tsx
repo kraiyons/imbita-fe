@@ -41,7 +41,7 @@ export const metadata = {
 
 export default function InviteHomePage({ params }: { params: TParams }) {
   return (
-    <div className="w-full text-center py-20">
+    <div className="w-full text-center py-20 px-5">
       <InviteHeader details={data.header} />
       {data?.events.map((event) => (
         <EventCard key={event.id} details={event} />
