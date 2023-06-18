@@ -1,5 +1,6 @@
 import EventCard from "@/components/EventCard";
 import InviteHeader from "@/components/InviteHeader";
+import ImageCarousel from "@/components/ImageCarousel";
 import { TParams } from "@/types";
 
 const data = {
@@ -12,6 +13,7 @@ const data = {
     date: new Date("October 13, 2023 1:30 pm").toString(),
     showDate: true,
   },
+  hashtag: "#KRAIzy4INGRID",
   events: [
     {
       id: "1",
@@ -46,6 +48,8 @@ export default function InviteHomePage({ params }: { params: TParams }) {
       {data?.events.map((event) => (
         <EventCard key={event.id} details={event} />
       ))}
+      <ImageCarousel />
+      <div className="py-2">{data.hashtag}</div>
     </div>
   );
 }
