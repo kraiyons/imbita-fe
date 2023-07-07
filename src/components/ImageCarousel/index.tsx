@@ -1,7 +1,7 @@
 import ImageWrapper from "./ImageWrapper";
 const data = [
   {
-    path: "/images/bridge.jpg",
+    path: "/media/bridge.jpg",
     alt: "Krai & Ingrid @ One of Melbourne's Shores",
   },
 ];

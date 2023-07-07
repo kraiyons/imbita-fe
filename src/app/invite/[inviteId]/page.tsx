@@ -1,17 +1,22 @@
 import EventCard from "@/components/EventCard";
 import InviteHeader from "@/components/InviteHeader";
 import ImageCarousel from "@/components/ImageCarousel";
+import SplashScreen from "@/components/SplashScreen";
+
 import { TParams } from "@/types";
 
 const data = {
   metadata: {
-    title: "#KRAIzy4INGRID",
+    title: "Krai & Ingrid",
     description: "Join us in celebrating Krai & Ingrid's Wedding!",
   },
   header: {
     title: "Krai & Ingrid",
     date: new Date("October 13, 2023 1:30 pm").toString(),
     showDate: true,
+  },
+  splashscreen: {
+    media: "/media/splash-video.mp4",
   },
   hashtag: "#KRAIzy4INGRID",
   events: [
@@ -49,6 +54,7 @@ export default function InviteHomePage({ params }: { params: TParams }) {
         <EventCard key={event.id} details={event} />
       ))}
       <ImageCarousel />
+      <SplashScreen media={data.splashscreen.media} />
       <div className="py-2">{data.hashtag}</div>
     </div>
   );
