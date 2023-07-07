@@ -31,7 +31,7 @@ export default function SplashScreen({ media }: TProps) {
         >
           <CloseIcon />
         </div>
-        <video width="320" height="240" controls autoPlay loop>
+        <video width="320" height="240" controls autoPlay muted>
           <source src={media} type="video/mp4" />
           Your browser does not support the videos.
         </video>
