@@ -25,8 +25,8 @@ const data = {
       description: `We kindly ask our guests to join us in embracing the beauty of the moment by keeping their phones away during the holy matrimony. We want to create a serene atmosphere and request that you kindly refrain from taking pictures or using your devices. Your presence and undivided attention mean the world to us. We appreciate your understanding and cooperation.`,
     },
     {
-      title: "Snap & Share",
-      description: `&ensp;Please use the hashtag **#KRAIzy4INGRID** and tag us [@ingridelaine_](https://www.instagram.com/ingridelaine_/) & [@kraiyons](https://www.instagram.com/kraiyons/) to share your photos. Feel free to capture countless memories at our reception using our digital disposable cameras.`,
+      title: "Snap & Share @ Our Reception",
+      description: `&ensp;Please use the hashtag **#KRAIzy4INGRID** and tag us [@ingridelaine_](https://www.instagram.com/ingridelaine_/) & [@kraiyons](https://www.instagram.com/kraiyons/) to share your photos. Feel free to capture countless memories at our reception using our digital disposable cameras. We'll add the link for that soon!`,
     },
     {
       title: "Gifts",
@@ -35,7 +35,7 @@ const data = {
         `\n\n&ensp;Please know that your contribution, whether big or small, will make a significant difference and will forever be remembered as an integral part of our journey together.`,
     },
     {
-      title: "Dresscode",
+      title: "Dress Code",
       description:
         `Attire - Semi Formal - Champagne, beige (A link to Pinterest will be placed here soon!)` +
         `\n\nGentlemen: Longsleeves, Black Slacks, Black Jeans, Black shoes` +
