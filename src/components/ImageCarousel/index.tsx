@@ -1,4 +1,5 @@
 import ImageWrapper from "./ImageWrapper";
+
 const data = [
   {
     path: "/media/bridge.jpg",
@@ -7,7 +8,7 @@ const data = [
 ];
 export default function ImageCarousel() {
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center py-5">
       {data.map((e, idx) => (
         <ImageWrapper key={idx} path={e.path} alt={e.alt} />
       ))}
