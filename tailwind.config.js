@@ -16,6 +16,9 @@ module.exports = {
         cinzel: ["var(--font-cinzel-decorative)"],
         raleway: ["var(--font-raleway)"],
       },
+      transitionProperty: {
+        "max-height": "max-height",
+      },
     },
   },
   plugins: [require("@tailwindcss/typography")],

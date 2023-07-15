@@ -1,4 +1,9 @@
+"use client";
+
+import { useState } from "react";
 import ReactMarkdown from "react-markdown";
+import CaretDown from "./CaretDown";
+import Swirl from "./Swirl";
 
 type TProps = {
   title: string;
@@ -6,13 +11,36 @@ type TProps = {
 };
 
 export default function TextHero({ title, description }: TProps) {
+  const [show, setShow] = useState(false);
+
   return (
     <div className="py-4 max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl">
-      <h3 className="text-xl md:text-3xl pb-2 font-cinzel">{title}</h3>
-      <div>
+      <h3
+        className="text-xl md:text-3xl pb-2 font-cinzel cursor-pointer flex justify-center items-center"
+        onClick={() => setShow((pState) => !pState)}
+      >
+        <div className="w-fit">{title}</div>
+        <div
+          className={`h-6 w-6 rotate-180 duration-500 transition-transform ${
+            show && "-rotate-0"
+          }`}
+        >
+          <CaretDown />
+        </div>
+      </h3>
+      <div
+        className={`max-h-0 text-ellipsis overflow-hidden transition-max-height duration-500 ease-linear ${
+          show && "max-h-96"
+        }`}
+      >
         <ReactMarkdown className="prose text-justify w-full max-w-none text-sm md:text-base">
           {description}
         </ReactMarkdown>
+        <div className={"flex justify-center"}>
+          <div className="w-40 text-orange-300 py-5">
+            <Swirl />
+          </div>
+        </div>
       </div>
     </div>
   );

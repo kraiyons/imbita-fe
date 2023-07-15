@@ -37,7 +37,7 @@ export default function InviteHomePage({ params }: { params: TParams }) {
       <ImageCarousel />
       {/* <SplashScreen media={data.splashscreen.media} /> */}
 
-      <div className="py-2">{data.hashtag}</div>
+      <div className="py-2 font-bold">{data.hashtag}</div>
     </div>
   );
 }

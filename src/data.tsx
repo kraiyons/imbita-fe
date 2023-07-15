@@ -13,10 +13,10 @@ const data = {
   textSections: [
     {
       title: "Unplugged Ceremony",
-      description: `We kindly ask our guests to join us in embracing the beauty of the moment by keeping their phones away during the holy matrimony. We want to create a serene atmosphere and request that you kindly refrain from taking pictures or using your devices. Your presence and undivided attention mean the world to us. We appreciate your understanding and cooperation.`,
+      description: `&ensp;We kindly ask our guests to join us in embracing the beauty of the moment by keeping their phones away during the holy matrimony. We want to create a serene atmosphere and request that you kindly refrain from taking pictures or using your devices. Your presence and undivided attention mean the world to us. We appreciate your understanding and cooperation.`,
     },
     {
-      title: "Snap & Share @ Our Reception",
+      title: "Snap & Share at Our Reception",
       description: `&ensp;Please use the hashtag **#KRAIzy4INGRID** and tag us [@ingridelaine_](https://www.instagram.com/ingridelaine_/) & [@kraiyons](https://www.instagram.com/kraiyons/) to share your photos. Feel free to capture countless memories at our reception using our digital disposable cameras. We'll add the link for that soon!`,
     },
     {
@@ -36,11 +36,11 @@ const data = {
     {
       title: "Schedule",
       description:
-        "We're excited to share more details with you soon! Stay tuned for updates on our upcoming event.",
+        "&ensp;We're excited to share more details with you soon! Stay tuned for updates on our upcoming event.",
     },
     {
       title: "Children",
-      description: `We hope you will understand our decision to make the wedding children-free, 
+      description: `&ensp;We hope you will understand our decision to make the wedding children-free, 
       and take the opportunity to let your hair down and celebrate in style!  `,
     },
     {
