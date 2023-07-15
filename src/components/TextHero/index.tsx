@@ -29,11 +29,14 @@ export default function TextHero({ title, description }: TProps) {
         </div>
       </h3>
       <div
-        className={`max-h-0 text-ellipsis overflow-hidden transition-max-height duration-500 ease-linear ${
+        className={`max-h-0 text-ellipsis overflow-hidden transition-max-height duration-500 ease-in-out ${
           show && "max-h-[800px]"
         }`}
       >
-        <ReactMarkdown className="prose text-justify w-full max-w-none text-sm md:text-base">
+        <ReactMarkdown
+          linkTarget="_blank"
+          className="prose text-justify w-full max-w-none text-sm md:text-base"
+        >
           {description}
         </ReactMarkdown>
         <div className={"flex justify-center"}>
