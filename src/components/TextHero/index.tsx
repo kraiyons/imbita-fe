@@ -30,7 +30,7 @@ export default function TextHero({ title, description }: TProps) {
       </h3>
       <div
         className={`max-h-0 text-ellipsis overflow-hidden transition-max-height duration-500 ease-linear ${
-          show && "max-h-96"
+          show && "max-h-[800px]"
         }`}
       >
         <ReactMarkdown className="prose text-justify w-full max-w-none text-sm md:text-base">
