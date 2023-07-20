@@ -21,8 +21,8 @@ export default function TextHero({ title, description }: TProps) {
       >
         <div className="w-fit">{title}</div>
         <div
-          className={`h-6 w-6 rotate-180 duration-500 transition-transform ${
-            show && "-rotate-0"
+          className={`h-6 w-6 duration-500 transition-transform ${
+            show ? "rotate-0" : "rotate-180"
           }`}
         >
           <CaretDown />
