@@ -1,8 +1,15 @@
 "use client";
 import { useState, useRef } from "react";
 import SVGPause from "./SVGPause";
+import SVGMute from "./SVGMute";
+import SVGVolume from "./SVGVolume";
+
 type TProps = {
   media: string;
+};
+
+const VolumeSVG = (isMuted: boolean) => {
+  return <>{isMuted ? <SVGMute /> : <SVGVolume />}</>;
 };
 
 export default function VideoHeader({ media }: TProps) {
@@ -21,6 +28,7 @@ export default function VideoHeader({ media }: TProps) {
         className="relative z-10 h-auto w-[300px] shadow-2xl rounded-lg bg-white p-4 overflow-hidden"
         onClick={_handleVideoClick}
       >
+        <VolumeSVG isMuted={false} />
         {!state && (
           <div className="bg-gray-700/20 w-full h-full text-white absolute top-0 left-0">
             <div className="absolute top-[calc(50%-12px)] left-[calc(50%-12px)]">
