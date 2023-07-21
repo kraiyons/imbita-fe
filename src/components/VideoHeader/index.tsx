@@ -28,10 +28,6 @@ export default function VideoHeader({ media }: TProps) {
     setState((pState) => ({ ...pState, isMuted }));
   };
 
-  useEffect(() => {
-    console.log({ state, playing: !videoRef?.current?.paused });
-  });
-
   return (
     <div className="flex items-center justify-center mb-10 -rotate-2 will-change-transform relative">
       <div className="relative z-10 h-auto w-[300px] shadow-2xl rounded-lg bg-white p-4 overflow-hidden">
