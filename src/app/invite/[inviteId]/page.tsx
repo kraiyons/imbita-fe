@@ -17,7 +17,7 @@ export const metadata = {
 
 export default function InviteHomePage({ params }: { params: TParams }) {
   return (
-    <div className="w-full text-center py-20 px-5 bg-[#ffec9e]/10">
+    <div className="w-full text-center py-20 px-5 ">
       <VideoHeader media={data.header.media} />
       <InviteHeader details={data.header} />
       {data?.events.map((event) => (
