@@ -16,7 +16,7 @@ export default function TextHero({ title, description }: TProps) {
   return (
     <div className="py-4 max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl">
       <h3
-        className="text-xl md:text-3xl pb-2 font-cinzel cursor-pointer flex justify-center items-center"
+        className="text-xl md:text-3xl font-cinzel cursor-pointer flex justify-center items-center"
         onClick={() => setShow((pState) => !pState)}
       >
         <div className="w-fit">{title}</div>
@@ -29,7 +29,7 @@ export default function TextHero({ title, description }: TProps) {
         </div>
       </h3>
       <div
-        className={`max-h-0 text-ellipsis overflow-hidden transition-max-height duration-500 ease-in-out ${
+        className={`max-h-0 text-ellipsis overflow-hidden transition-max-height pt-5 duration-500 ease-in-out ${
           show && "max-h-[800px]"
         }`}
       >
