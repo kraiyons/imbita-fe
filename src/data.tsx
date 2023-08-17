@@ -28,10 +28,11 @@ const data = {
     {
       title: "Dress Code",
       description:
-        `Semi Formal - Champagne, Beige, Khaki` +
-        `\n\nGentlemen: Longsleeves, Black Slacks, Black Jeans, Black shoes - [Pinterest](https://pin.it/5kFOsM9)` +
-        `\n\nLadies: Cocktails, Long dresses, Sandals, Heels - [Pinterest](https://pin.it/3nXGFUX)` +
-        `\n\n**DO NOT Wear:** \n\n &ensp; **Perfume** *(We kindly request our guests' cooperation in creating a fragrance-free environment on our special day. Due to severe allergies, the bride is sensitive to scents. We appreciate your understanding and support)*\n\n&ensp;Maong/Jeans, Rubber Shoes, Slippers, **Color White**`,
+        `**Type** - Semi Formal` +
+        `\n\n**Color** - Champagne, Beige, Khaki` +
+        `\n\n**Ladies** - Cocktails, Long dresses, Sandals, Heels \n([Reference](https://tinyurl.com/k4i-ladies))` +
+        `\n\n**Gentlemen** - Longsleeves, Black Slacks, Black Jeans, Dress/Formal shoes\n ([Reference](https://tinyurl.com/k4i-gentlemen))` +
+        `\n\n**DO NOT Wear -** \n\n &ensp; **Perfume** *(We kindly request our guests' cooperation in creating a fragrance-free environment on our special day. Due to severe allergies, the bride is sensitive to scents. We appreciate your understanding and support)*\n\n&ensp;Maong/Jeans, Rubber Shoes, Slippers, Sneakers, **Color White**`,
     },
     {
       title: "Schedule",
