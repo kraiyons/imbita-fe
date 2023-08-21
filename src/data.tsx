@@ -46,7 +46,7 @@ const data = {
     {
       title: "RSVP",
       description:
-        `To help us with the planning process, we kindly request that you RSVP to our wedding by email at [rsvp@kraizy4ingrid.com](mailto:rsvp@kraizy4ingrid.com?subject=RSVP%20for%20Krai%20%26%20Ingrid%2Fs%20Wedding) or via messenger [here](https://messenger.com/t/krai.alapide) as soon as possible, but no later than **September 13, 2023.**` +
+        `To help us with the planning process, we kindly request that you RSVP to our wedding by email at [rsvp@kraizy4ingrid.com](mailto:rsvp@kraizy4ingrid.com?subject=RSVP%20for%20Krai%20%26%20Ingrid%2Fs%20Wedding) or via messenger [here](https://messenger.com/t/krai.alapide) as soon as possible, but no later than **August 31, 2023.**` +
         `\n\nPlease include the following information in your RSVP email:` +
         `\n\nFull Names: Please mention the full names of all attendees (*including any additional guests if applicable*).` +
         `\n\nResponse: Kindly indicate if you will be attending the wedding or if, unfortunately, you won't be able to make it.` +
