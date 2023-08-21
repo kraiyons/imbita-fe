@@ -41,7 +41,7 @@ export default function RootLayout({
         }}
       />
       <body
-        className={`${cinzelDeco.variable} ${raleway.variable} text-primary font-raleway scroll-smooth bg-[#F7F4EF]`}
+        className={`${cinzelDeco.variable} ${raleway.variable} text-primary font-raleway scroll-smooth `}
       >
         {children}
       </body>
