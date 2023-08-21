@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${cinzelDeco.variable} ${raleway.variable} text-[#333333] font-raleway scroll-smooth`}
+        className={`${cinzelDeco.variable} ${raleway.variable} text-primary font-raleway scroll-smooth bg-[#F7F4EF]`}
       >
         {children}
       </body>
