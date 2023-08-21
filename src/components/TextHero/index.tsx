@@ -1,10 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import ReactMarkdown from "react-markdown";
 import CaretDown from "./CaretDown";
 import Swirl from "./Swirl";
-
+import Markdown from "markdown-to-jsx";
+import MarkdownLink from "../MarkdownLink";
+import Schedule from "../Schedule";
 type TProps = {
   title: string;
   description: string;
@@ -33,14 +34,24 @@ export default function TextHero({ title, description }: TProps) {
           show && "max-h-[800px]"
         }`}
       >
-        <ReactMarkdown
-          linkTarget="_blank"
-          className="prose text-justify w-full max-w-none text-sm md:text-base"
-        >
-          {description}
-        </ReactMarkdown>
+        <div className="prose text-justify w-full max-w-none text-sm md:text-base text-primary">
+          <Markdown
+            options={{
+              overrides: {
+                a: {
+                  component: MarkdownLink,
+                },
+                Schedule: {
+                  component: Schedule,
+                },
+              },
+            }}
+          >
+            {description}
+          </Markdown>
+        </div>
         <div className={"flex justify-center"}>
-          <div className="w-40 text-orange-300 py-5">
+          <div className="w-40 text-[#fad6a5] py-5">
             <Swirl />
           </div>
         </div>
