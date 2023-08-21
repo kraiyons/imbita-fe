@@ -8,7 +8,13 @@ export default function MarkdownLink({
   ...props
 }: React.PropsWithChildren<TProps>) {
   return (
-    <a {...props} href={href} target="_blank" rel="noopener noreferrer">
+    <a
+      {...props}
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-primary"
+    >
       {children}
     </a>
   );

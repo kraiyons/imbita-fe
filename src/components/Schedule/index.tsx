@@ -38,7 +38,7 @@ const ScheduleItem = (props: TScheduleItem) => (
 );
 export default function Schedule() {
   return (
-    <div className="w-full lg:w-[500px] text-[0.5rem] lg:text-xs">
+    <div className="w-full lg:w-[500px] text-[0.5rem] lg:text-xs pt-10 py-20">
       <div className="flex gap-2 items-center justify-between w-full relative ">
         <div className="absolute w-full h-0.5 bg-primary"></div>
         <div className="w-3 h-3 rounded-full border-2 bg-white z-10 border-primary"></div>

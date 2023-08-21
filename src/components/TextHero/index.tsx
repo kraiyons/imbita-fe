@@ -44,6 +44,11 @@ export default function TextHero({ title, description }: TProps) {
                 Schedule: {
                   component: Schedule,
                 },
+                strong: {
+                  props: {
+                    className: "text-primary",
+                  },
+                },
               },
             }}
           >

@@ -51,7 +51,7 @@ const data = {
         `\n\nFull Names: Please mention the full names of all attendees (*including any additional guests if applicable*).` +
         `\n\nResponse: Kindly indicate if you will be attending the wedding or if, unfortunately, you won't be able to make it.` +
         `\n\nDietary Restrictions: If you or any of your guests have any specific dietary restrictions or allergies, please let us know so we can make necessary arrangements.` +
-        `\n\nAdditional Guests: *If you have been granted a plus-one* or if you plan to bring additional guests, please indicate their names in your response.`,
+        `\n\nAdditional Guests: *If you have been granted a plus-one*, please indicate their names in your response.`,
     },
   ],
 
