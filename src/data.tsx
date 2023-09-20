@@ -29,7 +29,7 @@ const data = {
       title: "Dress Code",
       description:
         `**Type** - Semi Formal` +
-        `\n\n**Color** - Champagne, Beige, Khaki` +
+        `\n\n**Color** - Champagne, Beige, Lighter Shades of Khaki` +
         `\n\n**Ladies** - Cocktails, Long dresses, Sandals, Heels \n([Reference](https://tinyurl.com/k4i-ladies))` +
         `\n\n**Gentlemen** - Longsleeves, Black Slacks, Black Jeans, Dress/Formal shoes\n ([Reference](https://tinyurl.com/k4i-gentlemen))` +
         `\n\n**DO NOT Wear -** \n\n  **Perfume** *(We kindly request our guests' cooperation in creating a fragrance-free environment on our special day. Due to severe allergies, the bride is sensitive to scents. We appreciate your understanding and support)*\n\nMaong/Jeans, Rubber Shoes, Slippers, Sneakers, **Color White**`,
