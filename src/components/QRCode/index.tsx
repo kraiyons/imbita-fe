@@ -62,9 +62,11 @@ export default function QRCode() {
             <div className="w-[300px] h-[300px] max-w-screen">
               {activeQr.svg}
             </div>
-            <a href={activeQr.png} download={true}>
-              Download
-            </a>
+            <div className="py-5 font-raleway text-primary">
+              <a href={activeQr.png} download={true}>
+                Download
+              </a>
+            </div>
           </div>
         </Modal>
       )}
