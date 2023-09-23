@@ -2,14 +2,11 @@ import Image from "next/image";
 import BpiQR from "./BpiQR";
 import GCashQR from "./GCashQR";
 import PayNowQR from "./PayNowQR";
-
-type TQRCodeProps = {
-  src: string;
-  alt: string;
-};
+import Modal from "../Modal";
+import { ReactNode } from "react";
 
 export default function QRCode() {
-  const QRWrapper = ({ children }) => (
+  const QRWrapper = ({ children }: { children: ReactNode }) => (
     <div className="flex flex-col items-center">{children}</div>
   );
   return (
@@ -26,6 +23,7 @@ export default function QRCode() {
         <PayNowQR />
         <div>PayNow</div>
       </QRWrapper>
+      <Modal>Hello</Modal>
     </div>
   );
 }
