@@ -7,7 +7,7 @@ import Markdown from "markdown-to-jsx";
 import MarkdownLink from "../MarkdownLink";
 import Schedule from "../Schedule";
 import QRCode from "../QRCode";
-
+import { ReactNode } from "react";
 type TProps = {
   title: string;
   description: string;
@@ -15,7 +15,9 @@ type TProps = {
 
 export default function TextHero({ title, description }: TProps) {
   const [show, setShow] = useState(false);
-
+  const Div = ({ children }: { children: ReactNode | string }) => (
+    <div>{children}</div>
+  );
   return (
     <div className="py-4 max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl">
       <h3
@@ -48,6 +50,9 @@ export default function TextHero({ title, description }: TProps) {
                 },
                 QRCode: {
                   component: QRCode,
+                },
+                p: {
+                  component: Div,
                 },
                 strong: {
                   props: {
