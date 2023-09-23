@@ -22,8 +22,9 @@ const data = {
     {
       title: "Gifts",
       description:
-        `While your presence alone is a treasured gift, we understand that some of our guests may wish to contribute in a more tangible way. In light of this, and with the utmost gratitude and appreciation, we kindly request your support in the form of a monetary contribution. Your generous gift will assist us in turning our dream of owning a home into a reality, providing us with a strong foundation for the next chapter of our lives.` +
-        `\n\nPlease know that your contribution, whether big or small, will make a significant difference and will forever be remembered as an integral part of our journey together.`,
+        `While your presence alone is a treasured gift, we understand that some of our guests may wish to contribute in a more tangible way. In light of this, and with the utmost gratitude and appreciation, we kindly request your support in the form of a monetary contribution. Your generous gift will assist us in turning our dream of owning a home into a reality, providing us with a strong foundation for the next chapter of our lives in Singapore.` +
+        `\n\nPlease know that your contribution, whether big or small, will make a significant difference and will forever be remembered as an integral part of our journey together.` +
+        `<QRCode />`,
     },
     {
       title: "Dress Code",
