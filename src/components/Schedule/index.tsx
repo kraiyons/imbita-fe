@@ -24,7 +24,7 @@ const ScheduleItem = (props: TScheduleItem) => (
         props.imgPos === "top" ? "flex-col-reverse" : "flex-col"
       }`}
     >
-      <div>
+      <div className="text-center">
         <div className="text-xs font-bold">{props.time}</div>
         <div className="font-cinzel text-ellipsis">{props.event}</div>
       </div>
@@ -42,12 +42,10 @@ export default function Schedule() {
       <div className="flex gap-2 items-center justify-between w-full relative ">
         <div className="absolute w-full h-0.5 bg-primary"></div>
         <div className="w-3 h-3 rounded-full border-2 bg-white z-10 border-primary"></div>
-        <div className="flex flex-col">
-          <div className="font-cinzel">Assembly</div>
-          <div className="mt-4 flex flex-col items-center">
-            <div className="w-0.5 h-4 bg-primary self-center"></div>
-            <div className="text-xs font-bold">1:30 pm</div>
-          </div>
+        <div className="flex flex-col pb-8 text-center">
+          <div className="font-cinzel">Procession</div>
+          <div className="text-xs font-bold">1:30 pm</div>
+          <div className="w-0.5 h-4 pb-4 mb-6 md:mb-4 bg-primary self-center"></div>
         </div>
         <ScheduleItem
           imgPos="top"
