@@ -6,6 +6,8 @@ import Swirl from "./Swirl";
 import Markdown from "markdown-to-jsx";
 import MarkdownLink from "../MarkdownLink";
 import Schedule from "../Schedule";
+import QRCode from "../QRCode";
+
 type TProps = {
   title: string;
   description: string;
@@ -43,6 +45,9 @@ export default function TextHero({ title, description }: TProps) {
                 },
                 Schedule: {
                   component: Schedule,
+                },
+                QRCode: {
+                  component: QRCode,
                 },
                 strong: {
                   props: {

@@ -43,9 +43,10 @@ export default function Schedule() {
         <div className="absolute w-full h-0.5 bg-primary"></div>
         <div className="w-3 h-3 rounded-full border-2 bg-white z-10 border-primary"></div>
         <div className="flex flex-col">
-          <div className="font-cinzel">Assembly</div>
-          <div className="mt-4 flex flex-col items-center">
-            <div className="w-0.5 h-4 bg-primary self-center"></div>
+          <div className="mt-4 flex flex-col-reverse items-center">
+            <div className="w-0.5 h-4 bg-primary self-center font-cinzel">
+              Assembly
+            </div>
             <div className="text-xs font-bold">1:30 pm</div>
           </div>
         </div>
