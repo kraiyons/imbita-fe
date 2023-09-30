@@ -16,7 +16,7 @@ type TProps = {
 export default function TextHero({ title, description }: TProps) {
   const [show, setShow] = useState(false);
   const Div = ({ children }: { children: ReactNode | string }) => (
-    <div className="prose">{children}</div>
+    <span className="block py-1">{children}</span>
   );
   return (
     <div className="py-4 max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl">
