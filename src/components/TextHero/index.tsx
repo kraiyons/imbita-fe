@@ -51,7 +51,9 @@ export default function TextHero({ title, description }: TProps) {
                 QRCode: {
                   component: QRCode,
                 },
-
+                p: {
+                  component: Div,
+                },
                 strong: {
                   props: {
                     className: "text-primary",
