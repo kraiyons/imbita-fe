@@ -15,7 +15,7 @@ const QRCodePOV = () => {
           <li>1. Picture with the Couple</li>
           <li>2. Picture with the Bride</li>
           <li>3. Picture with the Groom</li>
-          <li>4. Picture of the Couple's first dance</li>
+          <li>4. Picture of the Couple&apos;s first dance</li>
           <li>5. Your mirror selfie</li>
           <li>6. Picture at the Entrance Tunnel</li>
           <li>7. Picture of yourself drinking</li>
