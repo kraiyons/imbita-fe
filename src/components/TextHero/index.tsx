@@ -34,7 +34,7 @@ export default function TextHero({ title, description }: TProps) {
       </h3>
       <div
         className={`max-h-0 text-ellipsis overflow-hidden transition-max-height pt-5 duration-500 ease-in-out ${
-          show && 'max-h-[800px]'
+          show && 'max-h-[1200px]'
         }`}>
         <div className='prose text-justify w-full max-w-none text-sm md:text-base text-primary'>
           <Markdown

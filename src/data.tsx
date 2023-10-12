@@ -18,8 +18,8 @@ const data = {
     {
       title: 'Snap & Share at Our Reception',
       description:
-        `Please use the hashtag **#KRAIzy4INGRID** and tag us [@ingridelaine_](https://www.instagram.com/ingridelaine_/) & [@kraiyons](https://www.instagram.com/kraiyons/) to share your photos.` +
-        `\n\n We've also prepared a virtual disposable camera, equipped with 25 shots in total. We invite you to capture 15 shots based on specific categories, which are listed below. You can access this camera by scanning the QR code provided! The last 10 shots are entirely up to you to use as you wish, letting your creativity shine freely!` +
+        `Please use the hashtag **#KRAIzy4INGRID** and tag [@ingridelaine_](https://www.instagram.com/ingridelaine_/) & [@kraiyons](https://www.instagram.com/kraiyons/) to share your photos with us!` +
+        `\n\n We've also prepared a virtual disposable camera, equipped with 25 shots in total. We invite you to capture 15 shots based on specific categories, which are listed below. You can access this camera by scanning the QR code provided, no download required. The last 10 shots are entirely up to you to use as you wish, letting your creativity shine freely!` +
         `<QRCodePOV />` +
         ``,
     },
