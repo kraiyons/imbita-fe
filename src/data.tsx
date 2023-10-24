@@ -51,15 +51,23 @@ const data = {
       and take the opportunity to let your hair down and celebrate in style!  `,
     },
     {
-      title: 'RSVP',
+      title: 'Need assistance?',
       description:
-        `To help us with the planning process, we kindly request that you RSVP to our wedding by email at [rsvp@kraizy4ingrid.com](mailto:rsvp@kraizy4ingrid.com?subject=RSVP%20for%20Krai%20%26%20Ingrid%2Fs%20Wedding) or via messenger [here](https://messenger.com/t/krai.alapide) as soon as possible, but no later than **September 13, 2023.**` +
-        `\n\nPlease include the following information in your RSVP email:` +
-        `\n\nFull Names: Please mention the full names of all attendees (*including any additional guests if applicable*).` +
-        `\n\nResponse: Kindly indicate if you will be attending the wedding or if, unfortunately, you won't be able to make it.` +
-        `\n\nDietary Restrictions: If you or any of your guests have any specific dietary restrictions or allergies, please let us know so we can make necessary arrangements.` +
-        `\n\nAdditional Guests: *If you have been granted a plus-one*, please indicate their names in your response.`,
+        "If you encounter any difficulties, have questions, or need help with directions on the day of the event, please feel free to contact us. We've assigned people to assist you and ensure you have a smooth and enjoyable experience." +
+        '\n\nMylene - 09683249693' +
+        '\n\nBenedict - 09662566244' +
+        "\n\nDon't hesitate to reach out if you have any concerns or need guidance. We want to make your visit as comfortable as possible",
     },
+    // {
+    //   title: 'RSVP',
+    //   description:
+    //     `To help us with the planning process, we kindly request that you RSVP to our wedding by email at [rsvp@kraizy4ingrid.com](mailto:rsvp@kraizy4ingrid.com?subject=RSVP%20for%20Krai%20%26%20Ingrid%2Fs%20Wedding) or via messenger [here](https://messenger.com/t/krai.alapide) as soon as possible, but no later than **September 13, 2023.**` +
+    //     `\n\nPlease include the following information in your RSVP email:` +
+    //     `\n\nFull Names: Please mention the full names of all attendees (*including any additional guests if applicable*).` +
+    //     `\n\nResponse: Kindly indicate if you will be attending the wedding or if, unfortunately, you won't be able to make it.` +
+    //     `\n\nDietary Restrictions: If you or any of your guests have any specific dietary restrictions or allergies, please let us know so we can make necessary arrangements.` +
+    //     `\n\nAdditional Guests: *If you have been granted a plus-one*, please indicate their names in your response.`,
+    // },
   ],
 
   hashtag: '#KRAIzy4INGRID',
